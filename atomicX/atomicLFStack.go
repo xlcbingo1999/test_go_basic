@@ -20,6 +20,8 @@ func (head *LFStack) Push(i int) *LFStack { // 强制逃逸
 		old := atomic.LoadPointer(&lfhead)
 		new.Next = old
 
+		// CompareAndSwapPointer: 先比较变量的值是否等于给定旧值，等于旧值的情况下才赋予新值，最后返回新值是否设置成功。
+		// 悲观条件 check-lock-check
 		if atomic.CompareAndSwapPointer(&lfhead, old, newptr) {
 			break
 		}
@@ -35,7 +37,7 @@ func (head *LFStack) Pop() int {
 			return 0
 		}
 
-		if lfhead == old {
+		if lfhead == old { // check-lock-check
 			new := (*LFStack)(old).Next
 			if atomic.CompareAndSwapPointer(&lfhead, old, new) {
 				return 1

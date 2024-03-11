@@ -7,8 +7,8 @@ import (
 )
 
 type Config struct {
-	sync.RWMutex
-	endpoint string
+	sync.RWMutex // 这是一个读写互斥锁实例
+	endpoint     string
 }
 
 func BenchmarkPMutexSet(b *testing.B) {

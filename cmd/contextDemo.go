@@ -19,7 +19,10 @@ var contextDemoCmd = &cobra.Command{
 
 		// contextX.RunNormalClose()
 		// contextX.RunContextExample1()
-		contextX.RunContextExample3()
+		// contextX.RunContextExample3()
+		// contextX.RunContextExampleHTTP()
+		// contextX.RunContextExampleCancel()
+		contextX.RunContextExampleBreak()
 	},
 }
 

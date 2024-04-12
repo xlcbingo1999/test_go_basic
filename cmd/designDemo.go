@@ -4,12 +4,12 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/xlcbingo1999/test_go_basic/singleton"
+	"github.com/xlcbingo1999/test_go_basic/design"
 )
 
-var ginDemoCmd = &cobra.Command{
-	Use:   "singleton_demo",
-	Short: "Run singleton_demo",
+var designDemoCmd = &cobra.Command{
+	Use:   "design_demo",
+	Short: "Run design_demo",
 	Run: func(cmd *cobra.Command, args []string) {
 		defer func() {
 			if err := recover(); err != nil {
@@ -17,11 +17,10 @@ var ginDemoCmd = &cobra.Command{
 			}
 		}()
 
-		// singleton.RunTest()
-		singleton.RunSingleton2()
+		design.RunAllDesign()
 	},
 }
 
 func init() {
-	rootCmd.AddCommand(ginDemoCmd)
+	rootCmd.AddCommand(designDemoCmd)
 }

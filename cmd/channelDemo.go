@@ -17,7 +17,7 @@ var channelDemoCmd = &cobra.Command{
 			}
 		}()
 
-		channel.RunChan()
+		channel.RunChannelN()
 	},
 }
 

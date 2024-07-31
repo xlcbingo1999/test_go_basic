@@ -19,7 +19,7 @@ func f3() {
 	for {
 
 	}
-	fmt.Println("This is f3")
+	// fmt.Println("This is f3")
 }
 
 func RunPreemptTest1() {

@@ -3,7 +3,7 @@ package mapx
 import (
 	"fmt"
 
-	sync "github.com/xlcbingo1999/test_go_basic/mapx/sync"
+	sync "github.com/xlcbingo1999/test_go_basic/pkg/mapx/sync"
 )
 
 type val struct {

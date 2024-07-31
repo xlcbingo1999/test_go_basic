@@ -1,6 +1,6 @@
 package user
 
-import "github.com/xlcbingo1999/test_go_basic/person"
+import "github.com/xlcbingo1999/test_go_basic/pkg/person"
 
 type User struct {
 	Person person.Male

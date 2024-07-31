@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/xlcbingo1999/test_go_basic/productConsume"
+	"github.com/xlcbingo1999/test_go_basic/pkg/productConsume"
 )
 
 var productConsumeDemoCmd = &cobra.Command{

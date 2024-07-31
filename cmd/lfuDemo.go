@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/xlcbingo1999/test_go_basic/lfu"
+	"github.com/xlcbingo1999/test_go_basic/pkg/lfu"
 )
 
 var lfuDemoCmd = &cobra.Command{

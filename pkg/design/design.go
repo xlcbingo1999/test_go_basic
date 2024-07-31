@@ -3,9 +3,9 @@ package design
 import (
 	"fmt"
 
-	"github.com/xlcbingo1999/test_go_basic/design/Action"
-	"github.com/xlcbingo1999/test_go_basic/design/Construct"
-	"github.com/xlcbingo1999/test_go_basic/design/Struct"
+	"github.com/xlcbingo1999/test_go_basic/pkg/design/Action"
+	"github.com/xlcbingo1999/test_go_basic/pkg/design/Construct"
+	"github.com/xlcbingo1999/test_go_basic/pkg/design/Struct"
 )
 
 func RunAllDesign() {

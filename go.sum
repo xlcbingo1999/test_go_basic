@@ -1,7 +1,5 @@
 github.com/Allan-Jacobs/go-futures v0.3.0 h1:/+IRbpkjMSE1Vn2aDfJJhYGnKcn4CPifiDAVsAcQMEc=
 github.com/Allan-Jacobs/go-futures v0.3.0/go.mod h1:Q1NAY/WYak2+s6zrqgbYtFZhu7hD4uOCBFrpW1iO86A=
-github.com/bigwhite/go v0.0.0-20220914124533-7d976172ac97 h1:Q2Lp2FDDN5lLtcygzaghK91Vo0Pr5SE18wNbmyXbOAI=
-github.com/bigwhite/go v0.0.0-20220914124533-7d976172ac97/go.mod h1:REuC3+Nibj9wewzHa5YFxbiRcE0aP6jL7TXPIPj5XC8=
 github.com/cpuguy83/go-md2man/v2 v2.0.3/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/emirpasic/gods v1.18.1 h1:FXtiHYKDGKCW2KzwZKx0iC0PQmdlorYgdFG9jPXJ1Bc=
 github.com/emirpasic/gods v1.18.1/go.mod h1:8tpGGwCnJ5H4r6BWwaV6OrWmMoPhUl5jm/FMNAnJvWQ=

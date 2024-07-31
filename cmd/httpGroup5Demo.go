@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/spf13/cobra"
-	"github.com/xlcbingo1999/test_go_basic/httpgroup5"
+	"github.com/xlcbingo1999/test_go_basic/pkg/httpgroup5"
 )
 
 var httpgroup5DemoCmd = &cobra.Command{

@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/Allan-Jacobs/go-futures v0.3.0
+	github.com/emirpasic/gods v1.18.1
 	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.6.0
 	github.com/spf13/cobra v1.8.0
@@ -11,8 +12,6 @@ require (
 )
 
 require (
-	github.com/bigwhite/go v0.0.0-20220914124533-7d976172ac97 // indirect
-	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )

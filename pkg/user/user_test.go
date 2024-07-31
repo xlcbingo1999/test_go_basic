@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/xlcbingo1999/test_go_basic/mock"
+	"github.com/xlcbingo1999/test_go_basic/pkg/mock"
 )
 
 func TestUser_GetUserInfo(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	_ "net/http/pprof" // 自动增加的性能分析插件
 
-	"github.com/xlcbingo1999/test_go_basic/data"
+	"github.com/xlcbingo1999/test_go_basic/pkg/data"
 )
 
 func RunNoMutexDemo() {

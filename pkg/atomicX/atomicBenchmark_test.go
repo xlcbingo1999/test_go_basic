@@ -41,7 +41,7 @@ func BenchmarkPAtomicSet(b *testing.B) {
 	b.ReportAllocs()
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			config.Store(c)
+			config.Store(c.endpoint)
 		}
 	})
 }
@@ -52,7 +52,7 @@ func BenchmarkPAtomicGet(b *testing.B) {
 	b.ReportAllocs()
 	b.RunParallel(func(pb *testing.PB) {
 		for pb.Next() {
-			_ = config.Load().(Config)
+			_ = config.Load()
 		}
 	})
 }

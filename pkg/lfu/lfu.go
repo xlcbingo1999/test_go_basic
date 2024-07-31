@@ -95,7 +95,7 @@ func (c *LFUCache) Print() {
 	for k, v := range c.key2val {
 		fmt.Printf("key: %d => value: %d\n", k, v)
 	}
-	fmt.Println("\n\n\n")
+	fmt.Printf("\n\n\n")
 }
 
 func RunLFU() {
